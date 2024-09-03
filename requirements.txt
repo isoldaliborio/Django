@@ -1,0 +1,7 @@
+# create vienv
+Django==5.1
+DateTime==5.5
+# - Python 3.10.5
+# - Editor (Visual Studio SCode)
+# - Browser (Chrome)
+# - Familiarity with HTTP and Its methods
