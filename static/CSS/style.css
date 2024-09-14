@@ -1,2 +1,9 @@
 
 ul.errorlist {display:none}
+.body {
+    background-color: rgb(251, 240, 225);
+}
+.form_button {
+    margin: 0; 
+    padding-left: 0
+}

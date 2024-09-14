@@ -4,7 +4,7 @@
         <h1 class="note-title">{{note.title}}</h1>
         <p class="note-li">{{note.text}}</p>
     </div>
-    <a href= "{% url 'notes.list' %}" class="btn btn-secondary my-5">Back</a>
-    <a href="{% url 'notes.update' pk=note.id %}" class="btn btn-secondary">Edit</a>
+    <a href= "{% url 'notes.list' %}" class="btn btn-outline-dark my-5">Back</a>
+    <a href="{% url 'notes.update' pk=note.id %}" class="btn btn-outline-dark">Edit</a>
     <a href="{% url 'notes.delete' pk=note.id %}" class="btn btn-danger">Delete</a>
     {% endblock %}
